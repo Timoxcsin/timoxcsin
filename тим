@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        a {
+            text-decoration: none;
+            color: #333;
+            margin: 20px;
+            font-size: 20px;
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://your-image-url.jpg" alt="Моя фотография">
+    <h1>Привет, я начинающий стример!</h1>
+    <p>Следите за мной в социальных сетях:</p>
+    <a href="https://www.tiktok.com/@timoxcin" target="_blank">TikTok</a><br>
+    <a href="https://www.instagram.com/timoxcinn" target="_blank">Instagram</a><br>
+    <a href="https://t.me/Timoxc1n" target="_blank">Telegram</a><br>
+    <a href="https://timoxcin.donatik.io" target="_blank">Поддержать меня на Донатике</a>
+</body>
+</html>
