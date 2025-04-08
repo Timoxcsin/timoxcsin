@@ -1,0 +1,142 @@
+.🐮, [08.04.2025 4:04]
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-color: #f0f0f0;
+        }
+        a {
+            text-decoration: none;
+            color: #333;
+            margin: 20px;
+            font-size: 20px;
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 4px solid #4CAF50;
+        }
+        h1 {
+            color: #333;
+            font-size: 30px;
+        }
+        p {
+            color: #777;
+            font-size: 18px;
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            font-size: 20px;
+        }
+        .social-links a {
+            display: flex;
+            align-items: center;
+        }
+        .social-links img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+        .form-container {
+            margin-top: 40px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        input[type="email"] {
+            padding: 10px;
+            width: 80%;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .email-container {
+            margin-top: 40px;
+        }
+        .email-container a {
+            font-size: 20px;
+            color: #4CAF50;
+            font-weight: bold;
+            display: inline-block;
+            text-decoration: none;
+        }
+        .email-container img {
+            width: 30px;
+            height: 30px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Вставка фотографии -->
+    <img src="https://raw.githubusercontent.com/Timoxcsin/footoo/main/photo_2024-09-26_00-36-55.jpg" alt="Моя фотография">
+    <h1>Привет, я начинающий стример!</h1>
+    <p>Следите за мной в социальных сетях:</p>
+
+    <!-- Ссылки на социальные сети с иконками -->
+    <div class="social-links">
+        <a href="https://www.tiktok.com/@timoxcin" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/TikTok_logo_2018.svg/1200px-TikTok_logo_2018.svg.png" alt="TikTok">
+            TikTok
+        </a>
+        <a href="https://www.instagram.com/timoxcinn" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+            Instagram
+        </a>
+        <a href="https://t.me/Timoxc1n" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Telegram_Logo.png" alt="Telegram">
+            Telegram
+        </a>
+        <a href="https://timoxcin.donatik.io" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Donat_icon.svg/1200px-Donat_icon.svg.png" alt="Donatik">
+            Поддержать меня на Донатике
+        </a>
+    </div>
+
+    <!-- Форма для ввода email -->
+    <div class="form-container">
+        <h2>Подпишитесь на уведомления</h2>
+        <p>Введите свой email, чтобы получать обновления:</p>
+        <form action="https://formsubmit.co/Timofeee86@gmail.com" method="POST">
+            <input type="email" name="email" placeholder="Введите ваш email" required>
+            <button type="submit">Подписаться</button>
+        </form>
+    </div>
+
+.🐮, [08.04.2025 4:04]
+<!-- Контактная почта с иконкой -->
+    <div class="email-container">
+        <p>Вы можете связаться со мной по почте:</p>
+        <a href="mailto:Timofeee86@gmail.com">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Icon_email.svg/800px-Icon_email.svg.png" alt="Конверт">
+            Timofeee86@gmail.com
+        </a>
+    </div>
+</body>
+</html>
